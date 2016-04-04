@@ -31,8 +31,8 @@ sudo ln -s /usr/include/linux/videodev2.h /usr/include/linux/videodev.h
 git clone https://github.com/jacksonliam/mjpg-streamer
 cd mjpg-steamer
 cd mjpg-streamer-experimental
-make
-make install
+sudo make
+sudo make install
 sudo cp mjpg_streamer /usr/local/bin
 sudo cp output_http.so input_file.so /usr/local/lib/
 sudo cp -R www /usr/local/www
